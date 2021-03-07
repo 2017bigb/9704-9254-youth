@@ -6,7 +6,7 @@ name: 中青自动阅读
 on:
   workflow_dispatch:
   schedule:
-     - cron: '15 */2 * * *'
+     - cron: '15 9-20/2 * * *'
   watch:
     types: started
 jobs:
